@@ -1,0 +1,61 @@
+html, body {
+	font-size: 16px;
+	background-color: white;
+	font-family: Helvetica;
+}
+
+
+header h1 {
+	font-size: 2rem;
+	font-weight: bold;
+	color: blue;
+	text-align: center;
+	padding: 1rem;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+}
+
+
+.pic {
+	margin: 1rem 1rem 0.5rem 2rem;
+	width: 20%;	
+}
+
+.pic img{
+	width: 100%;
+	height: auto;
+}
+
+.comment {
+	display: inline-block;
+	font-weight: bolder;
+	font-size: 1.2rem;
+	width: 80%;
+}
+
+#c1 {
+	padding-top: 2rem;
+}
+
+#c4 {
+	padding-top: 3rem;
+}
+
+@media only screen and (max-width: 900px) {
+	.pic {
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.comment {
+		width: 95%;
+		margin: 0 auto;
+	}
+
+}	
